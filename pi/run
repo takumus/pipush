@@ -1,0 +1,5 @@
+#!/bin/bash
+cd `dirname $0`
+TARGET_PATH=$1
+./quit_runner
+screen -S runner ./runner $TARGET_PATH;
